@@ -9,54 +9,27 @@
     { "id": 2, "name": "Europe", "analysisTypeId": 1, "region": "EMEA" },
     { "id": 3, "name": "Asia Pacific", "analysisTypeId": 2, "region": "APAC" },
     { "id": 4, "name": "Europe", "analysisTypeId": 2, "region": "EMEA" },
-    { "id": 5, "name": "Latin America", "analysisTypeId": 3, "region": "Americas" },
-    { "id": 6, "name": "North America", "analysisTypeId": 3, "region": "Americas" }
+    { "id": 5, "name": "Latin America", "analysisTypeId": 3, "region": "Americas" }
   ],
   "sites": [
     { "id": 1, "name": "Site 001 - New York", "organizationId": 1, "country": "USA" },
     { "id": 2, "name": "Site 002 - Chicago", "organizationId": 1, "country": "USA" },
     { "id": 3, "name": "Site 003 - London", "organizationId": 2, "country": "UK" },
     { "id": 4, "name": "Site 004 - Tokyo", "organizationId": 3, "country": "Japan" },
-    { "id": 5, "name": "Site 005 - Singapore", "organizationId": 3, "country": "Singapore" },
-    { "id": 6, "name": "Site 006 - Berlin", "organizationId": 4, "country": "Germany" },
-    { "id": 7, "name": "Site 007 - São Paulo", "organizationId": 5, "country": "Brazil" },
-    { "id": 8, "name": "Site 008 - Mexico City", "organizationId": 6, "country": "Mexico" }
+    { "id": 5, "name": "Site 005 - Singapore", "organizationId": 3, "country": "Singapore" }
   ],
   "skus": [
     { "id": 1, "name": "SKU-12345", "siteId": 1, "category": "Electronics" },
     { "id": 2, "name": "SKU-23456", "siteId": 1, "category": "Appliances" },
     { "id": 3, "name": "SKU-34567", "siteId": 2, "category": "Electronics" },
     { "id": 4, "name": "SKU-45678", "siteId": 2, "category": "Appliances" },
-    { "id": 5, "name": "SKU-12345", "siteId": 3, "category": "Electronics" },
-    { "id": 6, "name": "SKU-56789", "siteId": 3, "category": "Electronics" },
-    { "id": 7, "name": "SKU-23456", "siteId": 4, "category": "Appliances" },
-    { "id": 8, "name": "SKU-67890", "siteId": 4, "category": "Electronics" },
-    { "id": 9, "name": "SKU-78901", "siteId": 5, "category": "Electronics" },
-    { "id": 10, "name": "SKU-89012", "siteId": 6, "category": "Appliances" },
-    { "id": 11, "name": "SKU-90123", "siteId": 7, "category": "Electronics" },
-    { "id": 12, "name": "SKU-01234", "siteId": 7, "category": "Appliances" },
-    { "id": 13, "name": "SKU-12346", "siteId": 8, "category": "Electronics" }
+    { "id": 5, "name": "SKU-12345", "siteId": 3, "category": "Electronics" }
   ],
   "nvpns": [
     { "id": 1, "name": "NVPN-001", "skuId": 1, "status": "active" },
     { "id": 2, "name": "NVPN-002", "skuId": 1, "status": "active" },
     { "id": 3, "name": "NVPN-003", "skuId": 2, "status": "active" },
     { "id": 4, "name": "NVPN-004", "skuId": 3, "status": "active" },
-    { "id": 5, "name": "NVPN-005", "skuId": 4, "status": "active" },
-    { "id": 6, "name": "NVPN-001", "skuId": 5, "status": "active" },
-    { "id": 7, "name": "NVPN-006", "skuId": 6, "status": "active" },
-    { "id": 8, "name": "NVPN-007", "skuId": 7, "status": "active" },
-    { "id": 9, "name": "NVPN-008", "skuId": 7, "status": "active" },
-    { "id": 10, "name": "NVPN-009", "skuId": 8, "status": "active" },
-    { "id": 11, "name": "NVPN-010", "skuId": 9, "status": "active" },
-    { "id": 12, "name": "NVPN-011", "skuId": 10, "status": "active" },
-    { "id": 13, "name": "NVPN-012", "skuId": 10, "status": "active" },
-    { "id": 14, "name": "NVPN-013", "skuId": 11, "status": "active" },
-    { "id": 15, "name": "NVPN-014", "skuId": 12, "status": "active" },
-    { "id": 16, "name": "NVPN-015", "skuId": 12, "status": "active" },
-    { "id": 17, "name": "NVPN-016", "skuId": 13, "status": "active" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    { "id": 5, "name": "NVPN-005", "skuId": 4, "status": "active" }
+  ]
 }
