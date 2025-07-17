@@ -31,5 +31,34 @@
     { "id": 3, "name": "NVPN-003", "skuId": 2, "status": "active" },
     { "id": 4, "name": "NVPN-004", "skuId": 3, "status": "active" },
     { "id": 5, "name": "NVPN-005", "skuId": 4, "status": "active" }
+  ],
+    "analysis": [
+    {
+      "id": "1",
+      "name": "Supply Chain Analysis Q1 2024",
+      "description": "Comprehensive analysis of supply chain efficiency for Q1 2024",
+      "status": "completed",
+      "createdAt": "2024-01-15T08:30:00.000Z",
+      "updatedAt": "2024-01-20T14:45:00.000Z",
+      "code": "SCA-Q1-2024-001"
+    },
+    {
+      "id": "2", 
+      "name": "Market Demand Forecast",
+      "description": "Predictive analysis for market demand in upcoming quarters",
+      "status": "active",
+      "createdAt": "2024-02-01T09:15:00.000Z",
+      "updatedAt": "2024-02-15T16:20:00.000Z",
+      "code": "MDF-2024-002"
+    },
+    {
+      "id": "3",
+      "name": "Risk Assessment Analysis",
+      "description": "Comprehensive risk assessment for operational processes",
+      "status": "draft",
+      "createdAt": "2024-02-10T11:00:00.000Z",
+      "updatedAt": "2024-02-12T10:30:00.000Z",
+      "code": "RAA-2024-003"
+    }
   ]
 }
