@@ -1,37 +1,4 @@
 {
-  "analysisTypes": [
-    { "id": 1, "name": "Supply Gap Analysis", "code": "SGA" },
-    { "id": 2, "name": "Demand Forecast Analysis", "code": "DFA" },
-    { "id": 3, "name": "Inventory Optimization", "code": "IO" }
-  ],
-  "organizations": [
-    { "id": 1, "name": "North America", "analysisTypeId": 1, "region": "Americas" },
-    { "id": 2, "name": "Europe", "analysisTypeId": 1, "region": "EMEA" },
-    { "id": 3, "name": "Asia Pacific", "analysisTypeId": 2, "region": "APAC" },
-    { "id": 4, "name": "Europe", "analysisTypeId": 2, "region": "EMEA" },
-    { "id": 5, "name": "Latin America", "analysisTypeId": 3, "region": "Americas" }
-  ],
-  "sites": [
-    { "id": 1, "name": "Site 001 - New York", "organizationId": 1, "country": "USA" },
-    { "id": 2, "name": "Site 002 - Chicago", "organizationId": 1, "country": "USA" },
-    { "id": 3, "name": "Site 003 - London", "organizationId": 2, "country": "UK" },
-    { "id": 4, "name": "Site 004 - Tokyo", "organizationId": 3, "country": "Japan" },
-    { "id": 5, "name": "Site 005 - Singapore", "organizationId": 3, "country": "Singapore" }
-  ],
-  "skus": [
-    { "id": 1, "name": "SKU-12345", "siteId": 1, "category": "Electronics" },
-    { "id": 2, "name": "SKU-23456", "siteId": 1, "category": "Appliances" },
-    { "id": 3, "name": "SKU-34567", "siteId": 2, "category": "Electronics" },
-    { "id": 4, "name": "SKU-45678", "siteId": 2, "category": "Appliances" },
-    { "id": 5, "name": "SKU-12345", "siteId": 3, "category": "Electronics" }
-  ],
-  "nvpns": [
-    { "id": 1, "name": "NVPN-001", "skuId": 1, "status": "active" },
-    { "id": 2, "name": "NVPN-002", "skuId": 1, "status": "active" },
-    { "id": 3, "name": "NVPN-003", "skuId": 2, "status": "active" },
-    { "id": 4, "name": "NVPN-004", "skuId": 3, "status": "active" },
-    { "id": 5, "name": "NVPN-005", "skuId": 4, "status": "active" }
-  ],
     "analysis": [
     {
       "id": "1",
